@@ -10,8 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 public class MainController {
 		@GetMapping("/on/main")
 		public String main() {
-			return 
-			
-		}
+			return "/on.main";
+			 }
 
 }
