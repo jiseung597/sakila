@@ -14,7 +14,8 @@
 <title>Insert title here</title>
 </head>
 <body class="container">
-		<h1></h1>
+		<h1>main</h1>
+	<div>${loginStaff.username}님 반갑습니다.</div>
 
 </body>
 </html>
