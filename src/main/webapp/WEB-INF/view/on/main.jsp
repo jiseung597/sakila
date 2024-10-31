@@ -13,7 +13,8 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<body>
- hello
+<body class="container">
+		<h1></h1>
+
 </body>
 </html>
