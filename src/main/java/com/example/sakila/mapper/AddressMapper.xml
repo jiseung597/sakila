@@ -1,1 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="com.example.sakila.mapper.AddressMapper">
+<select id="selectAddressListByWord"
+		ParameterType="String"
+		resultType="com.example.sakila.vo.Address">
+		SELECT
+			address_id addressId,
+			address
+		From address
+		WHERE LOWER(address) LIKE LOWER(CONTACT('%',#{searchAddress},'%'));
+		</select>
+	</mapper>
